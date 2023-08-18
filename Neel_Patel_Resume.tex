@@ -1,0 +1,120 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{mcdowellcv}
+
+% For mathematical symbols
+\usepackage{amsmath}
+\usepackage[hidelinks]{hyperref}
+\urlstyle{same}
+
+% Set applicant's personal data for header
+\name{Neel Patel}
+\address{Ottawa, ON \linebreak neelpatel4@cmail.carleton.ca}
+\contacts{ \url{https://github.com/notneelpatel}\linebreak \fontsize{8}{10}\selectfont \url{https://notneelpatel.github.io/portfolio}}
+
+\begin{document}
+
+	% Print the header
+	\makeheader
+		
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{Ottawa, ON}{Carleton University}{Fall 2021 - Spring 2026}
+			\begin{itemize}
+				\item B.Eng in Computer Systems Engineering, Co-op
+				\item 3rd Year Standing, 10.58/12 CGPA (A-)
+				\item Coursework: Computer Architecture, Object-Oriented Development, Data Structures, Algorithms, Real-Time Systems, Digital Systems, Calculus III, Technical Writing
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+
+	\begin{cvsection}{Availability}
+		\begin{cvsubsection}{}{}{}
+			\begin{itemize}
+				\item \textbf{Available for a Co-op position from Jan. 2024 to Dec. 2024}
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+
+	% Print the content
+	\begin{cvsection}{Employment}
+		\begin{cvsubsection}{Jr. Test Analyst, Co-Op/FSWEP}{Immigration, Refugees, and Citizenship Canada}{Summer 2023}			
+			\begin{itemize}
+				\item Meticulously executed 500+ test cases to ensure reliability of applications used by 10 000+ Government employees
+				\item Attended meetings to share insight on bugs and explanations 
+				\item Obtained proficiency in tools like Microsoft Azure DevOps 
+			\end{itemize}
+		\end{cvsubsection}
+		
+			\begin{cvsubsection}{Jr. Software Developer, High School Co-Op}{NorthStar Utilities}{Winter 2020}	
+			\begin{itemize}
+				\item Used Java arraylists and java.properties to standardize .properties files, automating manual cleanup of customer documents.
+				\item Gained skills in Git, Java, and Docker
+			\end{itemize}
+		\end{cvsubsection}
+		
+	\end{cvsection}
+	
+	\begin{cvsection}{Projects}
+		\begin{cvsubsection}{}{}{}
+			\begin{itemize}
+				\item \textbf{AI Raspberry Pi Bamboo Plant} (2023). Uses a water sensor and a local LLaMA instance writing a speech about neglecting to water a plant. Python, Linux
+				\item \textbf{Midi Search} (2022). BASH command-line interfaces that searches and downloads MIDI files from archive.org. BASH
+				\item \textbf{Albums Database} (2022). Website that uses Spotify API and JSON to parse data of albums with search filters. HTML, CSS, JS, Python, JSON
+				\item \textbf{Team Leader, ECOR 1041: Data Management} (2021). Python command-line interface that analyzes and organizes a dataset of books. Python, CSV
+			\end{itemize}
+			
+				More projects can be found at \url{https://notneelpatel.github.io/portfolio#Projects}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Additional Experience and Awards}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item \textbf {Deans Honour List (2022):} Maintained a GPA of A
+				\item \textbf{Lord Strathcona Medal (2021):} Highest award that can be bestowed upon a Cadet
+			\end{itemize}
+		
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Languages and Technologies}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+					\item \textbf{Languages:} Python; Java; C; Arm Assembly; BASH; HTML; CSS; JS; React JS; Firebase
+					\item \textbf{Software:} Vim; VSCode; Git; Photo/Video Editing; Azure ALM; \LaTeX
+					\item \textbf{Linux:} Debian/Ubuntu; Arch; Fedora; nix-env; Raspberry Pi 
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Extracurricular Activities}
+		\begin{cvsubsection}{}{}{}
+			\begin{itemize}
+				\item \textbf{Development Team (2022 - Present):} Assembled a team of classmates to create an agile environment to create a social media using React JS and Firebase
+				\item \textbf{Royal Canadian Army Cadets (2015 - 2021):} Demonstrated leadership, disciplinary and organizational skills through the vital positions of Drill Sergeant Major, Drum Major, and Instructor.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+\end{document}
+
