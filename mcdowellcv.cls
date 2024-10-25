@@ -23,7 +23,7 @@
 \ProvidesClass{mcdowellcv}[2022/03/18 v1.2.0 McDowell CV class]
 
 % Set up the fonts according to options
-\def\mainfontsize{11pt}
+\def\mainfontsize{10pt}
 \def\mainfontface{Times New Roman}
 
 \DeclareOption{calibri}{%
@@ -51,7 +51,7 @@
 
 % Set document margins
 %\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
-\usepackage[margin=0.5in]{geometry}
+\usepackage[margin=0.4in]{geometry}
 
 % Set font face
 \usepackage{fontspec}
@@ -110,7 +110,7 @@ Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
   \ifpapersize
     \def\aftersinglelinesubsectionheaderspace{-5.75pt}
   \else
-    \def\aftersinglelinesubsectionheaderspace{-10.25pt}
+    \def\aftersinglelinesubsectionheaderspace{-15.25pt}
   \fi
   
   \def\afterdoublelinesubsectionheaderspace{-11.75pt}
@@ -163,7 +163,7 @@ Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
 \name{}
 
 \newcommand\printname{
-  \typeout {kokoko}
+  \typeout {}
   \typeout \spaceskip
   \spaceskip \namespaceskip \relax
   \textbf{\LARGE\textls[110]{\textsc{\@name}}}
