@@ -26,12 +26,18 @@
 % For mathematical symbols
 \usepackage{amsmath}
 \usepackage[hidelinks]{hyperref}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue,
+    }
+
 \urlstyle{same}
 
 % Set applicant's personal data for header
 \name{Neel Patel}
 \address{Ottawa, ON \linebreak neelpatel4@cmail.carleton.ca}
-\contacts{ \url{https://github.com/notneelpatel}\linebreak \fontsize{9}{10}\selectfont \url{https://notneelpatel.xyz/portfolio}}
+\contacts{\url{https://github.com/notneelpatel}\linebreak \fontsize{9}{10}\selectfont \url{https://notneelpatel.xyz/portfolio}}
 
 \begin{document}
 
@@ -50,12 +56,12 @@
 	% Print the content
 	\begin{cvsection}{Employment}
 		
-	\begin{cvsubsection}{Software Developer Student, Co-op}{Solace Corporation}{Winter 2024, Fall 2024, Summer 2025}			
+	\begin{cvsubsection}{Software Developer Student, Co-op }{Solace Corporation}{Winter 2024, Fall 2024, Summer 2025}
 		\begin{itemize}
-			\item Engaged in the development cycle through planning, implementing, and testing features in Solace PubSub+ Python, C API, and Java-based APIs.
-			\item Optimized migrating repositories from SVN to Git from a multiple-week process to a one-day process
+			\item Engaged in the development cycle through planning, implementing, and testing features in the Solace Python, C, and Java-based APIs
+			\item Optimized the migration of SVN repositories to Git from a multiple-week process to a one-day process, with full documentation
 			\item Organized and led the migration of repositories to open source the Wireshark SMF Plugin
-			\item Identified, investigated, and fixed bugs within the Python, C, and Java APIs, resolving customer issues and improving the quality of the products.
+			\item Identified, investigated, and fixed bugs within the Python, C, and Java APIs, resolving customer issues and improving the quality of the products
 			\item Winning team of an internal hackathon	
 		\end{itemize}
 	\end{cvsubsection}
@@ -80,34 +86,39 @@
 		\begin{cvsubsection}{Ottawa, ON}{Carleton University}{Fall 2021 - Spring 2026}
 			\begin{itemize}
 				\item B.Eng in Computer Systems Engineering, Co-op
-				\item 4th Year Standing
-				\item Coursework: Capstone, Computer Architecture, Networking, Human Computer Interaction, AI in Engineering, Advanced C++ 
+				\item 4th Year Standing, expected to graduate in May 2026
+				\item Coursework: Computer Architecture, Networking, Network Security, Programming Practices, Electronics, Systems Design
 			\end{itemize}
 		\end{cvsubsection}
 	\end{cvsection}
 	
 	\begin{cvsection}{Projects}
-		\begin{cvsubsection}{}{}{}
+		\begin{cvsubsection}{University-Related}{}{}
 			\begin{itemize}
-				\item \textbf{AI Raspberry Pi Bamboo Plant}. Uses a water sensor and a local LLaMA instance writing a speech about neglecting to water a plant. Python, Linux
-				\item \textbf{Wallpaper Theme Converter}. Processes images to fit a colour scheme. Used by thousands, 100+ stars on GitHub. HTML, CSS, JS
-				\item \textbf{Albums Database}. Website that uses Spotify API and JSON to parse data of albums with search filters. HTML, CSS, JS, Python
-                \item \textbf{AI Agent, Capstone}. In-development project using AI agents to answer data-driven questions. ADK, Llama, Python, sysadmin
-				\item \textbf{Autonomous Snow Plow, SYSC 4805: Computer Systems Design Lab}. In-development project using Arduino hardware to create a mini snow plow. C++, Project Management
-				\item \textbf{Team Leader, SYSC 3010: Computer Systems Development Project}. Developed a cat monitoring system using Raspberry Pi hardware. Python, RPi, PubSub Messaging, system management
-				\item \textbf{Team Leader, ECOR 1041: Data Management}. Python command-line interface that analyzes and organizes a dataset of books. Python, CSV
+                \item \textbf{Team Leader, SYSC 4907: Capstone}. In-development project using AI agents to answer data-driven questions. ADK, Azure
+				\item \textbf{SYSC 4805: Computer Systems Design Lab}. In-development project using Arduino hardware to create an autonomous snow plow. C++, Project Management
+				\item \textbf{Team Leader, SYSC 3010: Computer Systems Development Project}. Developed a cat monitoring system using Raspberry Pi hardware. Python, RPi, Solace JS API, Solace Python API
+				\item \textbf{Team Leader, ECOR 1041: Data Management}. Python command-line interface that analyzes and organizes a dataset of books
 			\end{itemize}
-				More projects can be found at \url{https://notneelpatel.xyz/portfolio}
+		\end{cvsubsection}
+		\begin{cvsubsection}{Personal Projects}{}{}
+			\begin{itemize}
+				\item \textbf{Wallpaper Theme Converter}. Processes images to fit a colour scheme. Used by thousands, 100+ stars on GitHub. HTML, CSS, JS
+				\item \textbf{AI Raspberry Pi Bamboo Plant}. Uses a water sensor and a local LLaMA instance writing a speech about neglecting to water a plant.
+				\item \textbf{Albums Database}. Website that uses Spotify API and JSON to parse data of albums with search filters. HTML, CSS, JS, Python
+			\end{itemize}
+				More projects can be found at \url{https://notneelpatel.xyz/portfolio}.
 		\end{cvsubsection}
 	\end{cvsection}
 	
 	\begin{cvsection}{Additional Experience and Awards}
 		\begin{cvsubsection}{}{}{}	
 			\begin{itemize}
-				\item \textbf{Hack The Hill II, Ross FPGA Challenge 1st Place:} Used Verilog + Python to program a ROM that plays videos in a custom FPGA. 
-				\item \textbf{Discover Technata Hacks 2023, Top 3:} Created a data-driven business plan for more sustainable data centres using IoT, 5G, and AI.  
-				\item \textbf{Deans Honour List (2022,2025):} Maintained a GPA of A for the year
-				\item \textbf{Lord Strathcona Medal (2021):} Highest award that can be bestowed upon a Cadet
+				\item \textbf{Hack The Hill II, Ross FPGA Challenge 1st Place:} Used Verilog + Python to program a ROM that plays videos in a custom FPGA
+				\item \textbf{Solace Hackathon Spring 2024, People's Choice:} Created a chatbot to answer questions about Solace documentation
+				\item \textbf{Discover Technata Hacks 2023, Top 3:} Pitched a data-driven business plan for more sustainable data centres using IoT, 5G, and AI
+				\item \textbf{Deans' Honour List (2022, 2025):} Maintained a GPA of A for the year
+				\item \textbf{Lord Strathcona Medal (2021):} Highest award that can be bestowed upon a     Cadet
 			\end{itemize}
 		\end{cvsubsection}
 	\end{cvsection}
@@ -115,10 +126,9 @@
 	\begin{cvsection}{Extracurricular Activities}
 		\begin{cvsubsection}{}{}{}
 			\begin{itemize}
-				\item \textbf{Development Team (2022):} Assembled a team of classmates to learn and gain experience in web development. React, Firebase.
+				\item \textbf{Development Team (2022):} Assembled a team of classmates to learn and gain experience in web development. React, Firebase
 				\item \textbf{Royal Canadian Army Cadets (2015 - 2021):} Demonstrated leadership, disciplinary and organizational skills through the vital positions of Drill Sergeant Major, Drum Major, and Instructor.
 			\end{itemize}
 		\end{cvsubsection}
 	\end{cvsection}
 \end{document}
-
