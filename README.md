@@ -8,7 +8,7 @@ This is hosted on https://notneelpatel.xyz/resume
 
 This is achieved by using GitHub Pages + my custom domain
 
-## Installing Packages
+## Installing Dependencies
 
 Assuming you are on Fedora:
 
