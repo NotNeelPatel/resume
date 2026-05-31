@@ -13,7 +13,7 @@ This is achieved by using GitHub Pages + my custom domain
 Assuming you are on Fedora:
 
 ```
-sudo dnf install 'tex(XCharter.sty)' 'tex(fontenc.sty)' 'tex(inputenc.sty)' 'tex(fontenc.sty)' 'tex(titlesec.sty)'
+sudo dnf install 'tex(XCharter.sty)' 'tex(fontenc.sty)' 'tex(inputenc.sty)' 'tex(fontenc.sty)' 'tex(titlesec.sty)' 'tex(geometry.sty)' 'tex(enumitem.sty)' texlive-collection-fontsrecommended
 ```
 
 ## Compiling
